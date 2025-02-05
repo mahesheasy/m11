@@ -1,0 +1,33 @@
+import 'package:flutter/material.dart';
+import 'package:m11_ind/app/presentation/ui/app_end_drawer.dart';
+import 'package:m11_ind/app/presentation/widgets/accessible_features.dart';
+import 'package:m11_ind/app/presentation/widgets/drawer_icon_btn.dart';
+import 'package:m11_ind/features/ce/presentation/widgets/task_progress_card.dart';
+import 'package:m11_ind/widgets/widgets.dart';
+
+class BDEDashboard extends StatelessWidget {
+  const BDEDashboard({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Dashboard'),
+        actions: const [
+          DrawerIconBtn()
+          ],
+      ),
+      endDrawer: const AppEndDrawer(),
+      body: SingleChildScrollView(
+        padding: const EdgeInsets.all(12.0),
+        child: Column(
+          children: [
+            const TaskProgressCard(),
+            AppSpacer.p32(),
+            const AccessibleFeatures(),
+          ],
+        ),
+      ),
+    );
+  }
+}

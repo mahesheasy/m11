@@ -1,0 +1,18 @@
+{
+  "dart.flutterSdkPath": ".fvm/versions/3.22.2",
+  "workbench.sideBar.location": "left",
+  "editor.fontVariations": false,
+  "Generate freezed class": {
+		"prefix": "freezed",
+		"body": [
+			"import 'package:freezed_annotation/freezed_annotation.dart';",
+			"",
+			"part '$1.freezed.dart';",
+			"",
+			"@freezed",
+			"abstract class $2 with _$$2 {",
+			"factory $2() = _$2;",
+			"}"
+		]
+	}
+}

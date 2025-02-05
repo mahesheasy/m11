@@ -1,0 +1,105 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'enroll_fbo.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+_$EnrollBusinessFormImpl _$$EnrollBusinessFormImplFromJson(
+        Map<String, dynamic> json) =>
+    _$EnrollBusinessFormImpl(
+      id: json['name'] as String?,
+      managerName: json['manager_name'] as String?,
+      managerContactNum: json['manager_contact_no'] as String?,
+      businessName: json['business_name'] as String?,
+      fboName: json['fbo_name'] as String?,
+      supplierType: json['supplier_type'] as String?,
+      paymentType: json['payment_type'] as String?,
+      addressLine1: json['address_line_1'] as String?,
+      address: json['primary_address'] as String?,
+      route: json['custom_route'] as String?,
+      country: json['country'] as String?,
+      state: json['state'] as String?,
+      city: json['city'] as String?,
+      pincode: json['pincode'] as String?,
+      remarks: json['remarks'] as String?,
+      fboType: json['fbo_type'] as String?,
+      otherRemarks: json['other_remarks'] as String?,
+      followupDate: json['follow_up_date'] as String?,
+      ucoCollectionDate: json['uco_collection_date'] as String?,
+      ucoCollectionTime: json['uco_collection_time'] as String?,
+      mobileNumber: json['mobile_no'] as String?,
+      landLineNumber: json['land_line_number'] as String?,
+      email: json['email_id'] as String?,
+      gstinNumber: json['gstin_number'] as String?,
+      fssaiNumber: json['fssai_no'] as String?,
+      isEnrolling: json['is_enrolling'] as bool? ?? false,
+      isNotInterested: json['is_not_interested'] as bool? ?? false,
+      isFollowUp: json['is_follow_up'] as bool? ?? false,
+      website: json['website'] as String?,
+      ratePerKilogram: (json['pricekg'] as num?)?.toDouble(),
+      latitude: (json['latitude'] as num?)?.toDouble(),
+      longitude: (json['longitude'] as num?)?.toDouble(),
+      location: json['location'] as String?,
+      photo: json['photo'] as String?,
+      certificateImage: json['fssai_certificate_image'] as String?,
+      certificateImageUrl: json['certificateImageUrl'] as String?,
+      restaurantType: json['restaurant_type'] as String?,
+      photoUrl: json['photoUrl'] as String?,
+      bankDetails: json['bank_details'] == null
+          ? null
+          : BankDetails.fromJson(json['bank_details'] as Map<String, dynamic>),
+      basePrice: (json['basePrice'] as num?)?.toDouble() ?? 0,
+      gstPercent: (json['gstPercent'] as num?)?.toDouble() ?? 0,
+      noOfMenuItems: (json['custom_no_of_items_in_the_menu'] as num?)?.toInt(),
+      noOfFriedItems:
+          (json['custom_no_of_fried_items_in_the_menu'] as num?)?.toInt(),
+      seatingCapacity: (json['custom_seating_capacity'] as num?)?.toInt(),
+    );
+
+Map<String, dynamic> _$$EnrollBusinessFormImplToJson(
+        _$EnrollBusinessFormImpl instance) =>
+    <String, dynamic>{
+      'name': instance.id,
+      'manager_name': instance.managerName,
+      'manager_contact_no': instance.managerContactNum,
+      'business_name': instance.businessName,
+      'fbo_name': instance.fboName,
+      'supplier_type': instance.supplierType,
+      'payment_type': instance.paymentType,
+      'address_line_1': instance.addressLine1,
+      'primary_address': instance.address,
+      'custom_route': instance.route,
+      'country': instance.country,
+      'state': instance.state,
+      'city': instance.city,
+      'pincode': instance.pincode,
+      'remarks': instance.remarks,
+      'fbo_type': instance.fboType,
+      'other_remarks': instance.otherRemarks,
+      'follow_up_date': instance.followupDate,
+      'uco_collection_date': instance.ucoCollectionDate,
+      'mobile_no': instance.mobileNumber,
+      'land_line_number': instance.landLineNumber,
+      'email_id': instance.email,
+      'gstin_number': instance.gstinNumber,
+      'fssai_no': instance.fssaiNumber,
+      'is_enrolling': instance.isEnrolling,
+      'is_not_interested': instance.isNotInterested,
+      'is_follow_up': instance.isFollowUp,
+      'website': instance.website,
+      'pricekg': instance.ratePerKilogram,
+      'latitude': instance.latitude,
+      'longitude': instance.longitude,
+      'location': instance.location,
+      'photo': instance.photo,
+      'fssai_certificate_image': instance.certificateImage,
+      'certificateImageUrl': instance.certificateImageUrl,
+      'restaurant_type': instance.restaurantType,
+      'photoUrl': instance.photoUrl,
+      'bank_details': instance.bankDetails,
+      'custom_no_of_items_in_the_menu': instance.noOfMenuItems,
+      'custom_no_of_fried_items_in_the_menu': instance.noOfFriedItems,
+      'custom_seating_capacity': instance.seatingCapacity,
+    };

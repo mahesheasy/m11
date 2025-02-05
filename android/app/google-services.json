@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "845854320264",
+    "project_id": "m11-ind",
+    "storage_bucket": "m11-ind.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:845854320264:android:96b4a82e2b4d618c7fa13d",
+        "android_client_info": {
+          "package_name": "in.easycloud.m11_ind"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsaGqU2sqyegxwumSSlgxSijfUNh9aFhc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
